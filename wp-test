@@ -1,5 +1,6 @@
 # BEGIN WordPress
-
+RewriteEngine On
+RewriteEngine On
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 RewriteBase /
